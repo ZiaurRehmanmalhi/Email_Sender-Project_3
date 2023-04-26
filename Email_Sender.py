@@ -31,7 +31,7 @@ def send_email(content, emails):
         print(e.message)
 
 
-content = input("Enter your email content: ")
-emails = input("Enter the email addresses separated by commas: ")
+content = input("Please enter the mail content :")
+emails = input("Please enter the recipient email ids: ")
 
 send_email(content, emails)
