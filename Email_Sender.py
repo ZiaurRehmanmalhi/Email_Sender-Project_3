@@ -5,8 +5,8 @@ from sendgrid.helpers.mail import Mail, Email, To, Content
 
 os.environ['SENDGRID_API_KEY'] = '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'
 
-from_email = Email("ziamalhi1234@gmail.com")
-to_email = To("ziamalhi786@gmail.com", "abcdef1122ff@gmail.com")
+from_email = Email("myemail@gmail.com")
+to_email = To("person1@gmail.com", "person1@gmail.com")
 subject = "Sending email with SendGrid and Python"
 content = Content("text/plain", """Hi everyone, I am sending this very important 
 email to your from sendgrid but it is just a test to be honest. Ok bye.""")
